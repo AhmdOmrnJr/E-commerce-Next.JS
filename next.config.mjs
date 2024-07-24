@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: ['ecommerce.routemisr.com'], // Add the domain here
+      domains: ['ecommerce.routemisr.com'],
+      output: "export",
     },
   };
   
